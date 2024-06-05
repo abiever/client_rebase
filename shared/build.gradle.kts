@@ -1,5 +1,7 @@
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 
+//build.gradle.kts file in SHARED folder
+
 plugins {
     kotlin("multiplatform")
     kotlin("native.cocoapods")
@@ -71,4 +73,7 @@ android {
         minSdk = 21
         targetSdk = 33
     }
+}
+dependencies {
+    implementation("androidx.activity:activity-ktx:1.9.0")
 }

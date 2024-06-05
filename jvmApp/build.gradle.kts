@@ -1,5 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
+//Build.gradle.kts for overall Main app?
+
 plugins {
     kotlin("jvm")
     id("org.jetbrains.compose") version "1.6.2" // https://plugins.gradle.org/plugin/org.jetbrains.compose

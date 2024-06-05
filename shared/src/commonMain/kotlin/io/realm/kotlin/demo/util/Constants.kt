@@ -21,7 +21,7 @@ package io.realm.kotlin.demo.util
  * https://www.mongodb.com/docs/atlas/tutorial/create-atlas-account/ or watch the video tutorial https://www.youtube.com/watch?v=lqo0Yf7lnyg
  */
 object Constants {
-    val MONGODB_REALM_APP_ID = "kmm-demo-ybtqmbp"
-    val MONGODB_REALM_APP_USER = "user@email.com"
-    val MONGODB_REALM_APP_PASSWORD = "123456"
+    val MONGODB_REALM_APP_ID = "client_intake_app-kueyjod"
+    val MONGODB_REALM_APP_USER = "test@test.com"
+    val MONGODB_REALM_APP_PASSWORD = "test1234"
 }

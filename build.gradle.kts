@@ -1,7 +1,10 @@
+//GENERAL build.gradle?
+
 plugins {
     kotlin("multiplatform") version "1.9.10" apply false
     id("com.android.library") version "7.3.1" apply false
 }
+
 
 // Explicitly adding the plugin to the classpath as it makes it easier to control the version
 // centrally (don't need version in the 'plugins' block). Further, snapshots are not published with
